@@ -1,5 +1,5 @@
-
+from core.extract import extract
 
 
 def main():
-    print('')
+    extract('./csv_files/example.csv')
